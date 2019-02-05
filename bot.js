@@ -9,7 +9,7 @@ const fs = require("fs");
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const discord_token = "NTM5NTk2MzA4NzAxMzgwNjI4.DzEpwQ.AiwI39_i9QlSMQ4eNkY7G4Wuj38";
+const discord_token = "NTQxMjY0MjExNjUzODIwNDM3.DztdRw.v_6O3eMBLwTRQm69yWXyEh-CSso";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -17,7 +17,7 @@ client.on('ready', () => {
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = [`${client.guilds.size} Server`,' Premium Bot™ by MF-Community','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: MF-Community | BaronTube'];
+    var setGame = [`${client.guilds.size} Server`,' Premium Bot™ by انا مش بوتy','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: اقسم بالله انا مش بوت'];
     var i = -1;
     var j = 0;
     setInterval(function (){
